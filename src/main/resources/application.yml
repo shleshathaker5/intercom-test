@@ -2,16 +2,16 @@
 spring:
   application:
     name: intercom-web
-
-spring.mvc.view.prefix: /WEB-INF/jsp/
-spring.mvc.view.suffix: .jsp
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
 
 server:
   servlet:
     context-path:  /${spring.application.name}
     session:
       timeout: 1800
-  port: 8081
 
 
   
