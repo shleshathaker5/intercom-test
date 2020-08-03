@@ -23,7 +23,7 @@ You can find the Customer list here. (https://s3.amazonaws.com/intercom-take-hom
 3. Git(to clone the repo)
 
 
-## Steps to run the boot application:
+## Steps to run the application:
 1. Clone the git repository in your local and run below commands to build and run tests :
 
    1.``` mvn clean install ```
